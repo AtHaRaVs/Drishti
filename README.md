@@ -1,4 +1,5 @@
 # Drishti 👁️
+
 ![MERN](https://img.shields.io/badge/Stack-MERN-green?style=for-the-badge)
 ![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
 ![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
@@ -7,37 +8,51 @@
 ![AST](https://img.shields.io/badge/AST-Analysis-blue?style=for-the-badge)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
-
-
+![NPM Express](https://img.shields.io/badge/express.js-dependency-blue?style=for-the-badge&logo=npm)
+![CORS](https://img.shields.io/badge/CORS-enabled-brightgreen?style=for-the-badge&logo=internetexplorer)
+![Dotenv](https://img.shields.io/badge/dotenv-env-yellowgreen?style=for-the-badge&logo=dotenv&logoColor=white)
+![Fast-Glob](https://img.shields.io/badge/Fast--Glob-file%20scanner-orange?style=for-the-badge&logo=files&logoColor=white)
+![Babel Parser](https://img.shields.io/badge/@babel/parser-yellow?style=for-the-badge&logo=babel&logoColor=white)
+![Babel Traverse](https://img.shields.io/badge/@babel/traverse-orange?style=for-the-badge&logo=babel&logoColor=white)
+![Babel Types](https://img.shields.io/badge/@babel/types-red?style=for-the-badge&logo=babel&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![Node.js Types](https://img.shields.io/badge/@types/node-339933?style=for-the-badge&logo=node.js&logoColor=white)
+![Express Types](https://img.shields.io/badge/@types/express-000000?style=for-the-badge&logo=express&logoColor=white)
+![tsx](https://img.shields.io/badge/tsx-F0DB4F?style=for-the-badge&logo=typescript&logoColor=white)
+![Nodemon](https://img.shields.io/badge/Nodemon-76D04B?style=for-the-badge&logo=nodemon&logoColor=white)
+![Concurrently](https://img.shields.io/badge/Concurrently-FF7F50?style=for-the-badge)
+![Babel Parser Types](https://img.shields.io/badge/@types/babel__parser-yellow?style=for-the-badge&logo=babel&logoColor=white)
+![Babel Traverse Types](https://img.shields.io/badge/@types/babel__traverse-orange?style=for-the-badge&logo=babel&logoColor=white)
 
 **Drishti** is a repository comprehension engine designed to give developers **deep architectural understanding** of unfamiliar codebases.  
 Unlike tools that only provide statistics or surface-level documentation, Drishti helps you answer critical questions like:
 
-- *"How does authentication flow work in this codebase?"*  
-- *"What happens when a user clicks 'submit' on the payment form?"*  
-- *"Where are the database models defined and how do they relate?"*  
-- *"What are the critical dependency paths I shouldn't break?"*  
-- *"How is error handling implemented across services?"*  
+- _"How does authentication flow work in this codebase?"_
+- _"What happens when a user clicks 'submit' on the payment form?"_
+- _"Where are the database models defined and how do they relate?"_
+- _"What are the critical dependency paths I shouldn't break?"_
+- _"How is error handling implemented across services?"_
 
-Drishti = **Clarity into your repositories.**  
+Drishti = **Clarity into your repositories.**
 
 ---
 
 ## ✨ Features
 
-- 🏗️ **Architecture Understanding** – Detects architectural patterns, entry points, and data flow.  
-- 🔄 **Business Logic Flows** – Extracts end-to-end flows (e.g., authentication, payment).  
-- 🔍 **Cross-File Relationship Mapping** – Trace complete user journeys across files.  
-- 📦 **Configuration Parsing** – Understands package.json, env vars, and dependencies.  
-- ⚠️ **Impact Analysis** – Know what breaks if you modify a function.  
-- 📖 **Architecture Decision Docs** – Inferred reasoning behind technical choices.  
-- 🔐 **Security Analysis** – Detects auth strategies, validation, and vulnerabilities.  
+- 🏗️ **Architecture Understanding** – Detects architectural patterns, entry points, and data flow.
+- 🔄 **Business Logic Flows** – Extracts end-to-end flows (e.g., authentication, payment).
+- 🔍 **Cross-File Relationship Mapping** – Trace complete user journeys across files.
+- 📦 **Configuration Parsing** – Understands package.json, env vars, and dependencies.
+- ⚠️ **Impact Analysis** – Know what breaks if you modify a function.
+- 📖 **Architecture Decision Docs** – Inferred reasoning behind technical choices.
+- 🔐 **Security Analysis** – Detects auth strategies, validation, and vulnerabilities.
 
 ---
 
 ## 🚀 Getting Started
 
 ### 1️⃣ Clone the Repository
+
 ```bash
 git clone https://github.com/your-username/drishti.git
 cd drishti
@@ -46,18 +61,21 @@ cd drishti
 ### 2️⃣ Install Dependencies
 
 #### Backend
+
 ```bash
 cd server
 npm install
 ```
 
 #### Frontend
+
 ```bash
 cd client
 npm install
 ```
 
 ### 3️⃣ Setup Environment Variables
+
 Create a `.env` file inside `server` with the following:
 
 ```env
@@ -70,37 +88,42 @@ JWT_SECRET=your_secret_key
 ### 4️⃣ Run the Project
 
 #### Backend
+
 ```bash
 cd server
 npm run dev
 ```
 
 #### Frontend
+
 ```bash
 cd client
 npm run dev
 ```
 
 Frontend → `http://localhost:5173/`  
-Backend → `http://localhost:5000/`  
+Backend → `http://localhost:5000/`
 
 ---
 
 ## 📖 Example Outputs
 
 ### 🏗️ System Architecture
+
 ```
 Request → API Layer → Business Logic → Data Access → Database
 ```
 
 ### 🔑 User Registration Flow
-1. Input Validation → `src/validators/user.validator.js`  
-2. Duplicate Check → `src/services/user.service.js`  
-3. Password Hashing → `src/utils/crypto.js`  
-4. Database Insert → `src/models/user.model.js`  
-5. Email Verification → `src/utils/email.service.js`  
+
+1. Input Validation → `src/validators/user.validator.js`
+2. Duplicate Check → `src/services/user.service.js`
+3. Password Hashing → `src/utils/crypto.js`
+4. Database Insert → `src/models/user.model.js`
+5. Email Verification → `src/utils/email.service.js`
 
 ### ⚠️ Impact Analysis
+
 ```
 Function: validatePayment
 Direct Callers: processOrder, refundPayment
@@ -111,11 +134,13 @@ Risk Level: HIGH
 ---
 
 ## 📜 License
-This project is licensed under the **MIT License**.  
+
+This project is licensed under the **MIT License**.
 
 ---
 
 ## 🙌 Acknowledgements
-- Inspired by the need for **faster onboarding** into complex systems.  
-- Combines learnings from RepoAgent, DeepWiki, and architectural analysis tools.  
-- Built for developers who want to go beyond reading code — to **understanding systems**.  
+
+- Inspired by the need for **faster onboarding** into complex systems.
+- Combines learnings from RepoAgent, DeepWiki, and architectural analysis tools.
+- Built for developers who want to go beyond reading code — to **understanding systems**.
