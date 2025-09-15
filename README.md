@@ -1,28 +1,30 @@
 # Drishti 👁️
 
-![MERN](https://img.shields.io/badge/Stack-MERN-green?style=for-the-badge)
-![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
-![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
-![AST](https://img.shields.io/badge/AST-Analysis-blue?style=for-the-badge)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
-![NPM Express](https://img.shields.io/badge/express.js-dependency-blue?style=for-the-badge&logo=npm)
-![CORS](https://img.shields.io/badge/CORS-enabled-brightgreen?style=for-the-badge&logo=internetexplorer)
-![Dotenv](https://img.shields.io/badge/dotenv-env-yellowgreen?style=for-the-badge&logo=dotenv&logoColor=white)
-![Fast-Glob](https://img.shields.io/badge/Fast--Glob-file%20scanner-orange?style=for-the-badge&logo=files&logoColor=white)
-![Babel Parser](https://img.shields.io/badge/@babel/parser-yellow?style=for-the-badge&logo=babel&logoColor=white)
-![Babel Traverse](https://img.shields.io/badge/@babel/traverse-orange?style=for-the-badge&logo=babel&logoColor=white)
-![Babel Types](https://img.shields.io/badge/@babel/types-red?style=for-the-badge&logo=babel&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![Node.js Types](https://img.shields.io/badge/@types/node-339933?style=for-the-badge&logo=node.js&logoColor=white)
-![Express Types](https://img.shields.io/badge/@types/express-000000?style=for-the-badge&logo=express&logoColor=white)
-![tsx](https://img.shields.io/badge/tsx-F0DB4F?style=for-the-badge&logo=typescript&logoColor=white)
-![Nodemon](https://img.shields.io/badge/Nodemon-76D04B?style=for-the-badge&logo=nodemon&logoColor=white)
-![Concurrently](https://img.shields.io/badge/Concurrently-FF7F50?style=for-the-badge)
-![Babel Parser Types](https://img.shields.io/badge/@types/babel__parser-yellow?style=for-the-badge&logo=babel&logoColor=white)
-![Babel Traverse Types](https://img.shields.io/badge/@types/babel__traverse-orange?style=for-the-badge&logo=babel&logoColor=white)
+<p align="center">
+  <img src="https://img.shields.io/badge/Stack-MERN-green?style=flat-square" />
+  <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=flat-square&logo=mongodb&logoColor=white" />
+  <img src="https://img.shields.io/badge/Express.js-000000?style=flat-square&logo=express&logoColor=white" />
+  <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" />
+  <img src="https://img.shields.io/badge/Node.js-43853D?style=flat-square&logo=node.js&logoColor=white" />
+  <img src="https://img.shields.io/badge/AST-Analysis-blue?style=flat-square" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />
+  <img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" />
+  <img src="https://img.shields.io/badge/express.js-dependency-blue?style=flat-square&logo=npm" />
+  <img src="https://img.shields.io/badge/CORS-enabled-brightgreen?style=flat-square&logo=internetexplorer" />
+  <img src="https://img.shields.io/badge/dotenv-env-yellowgreen?style=flat-square&logo=dotenv&logoColor=white" />
+  <img src="https://img.shields.io/badge/Fast--Glob-file%20scanner-orange?style=flat-square&logo=files&logoColor=white" />
+  <img src="https://img.shields.io/badge/@babel/parser-yellow?style=flat-square&logo=babel&logoColor=white" />
+  <img src="https://img.shields.io/badge/@babel/traverse-orange?style=flat-square&logo=babel&logoColor=white" />
+  <img src="https://img.shields.io/badge/@babel/types-red?style=flat-square&logo=babel&logoColor=white" />
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
+  <img src="https://img.shields.io/badge/@types/node-339933?style=flat-square&logo=node.js&logoColor=white" />
+  <img src="https://img.shields.io/badge/@types/express-000000?style=flat-square&logo=express&logoColor=white" />
+  <img src="https://img.shields.io/badge/tsx-F0DB4F?style=flat-square&logo=typescript&logoColor=white" />
+  <img src="https://img.shields.io/badge/Nodemon-76D04B?style=flat-square&logo=nodemon&logoColor=white" />
+  <img src="https://img.shields.io/badge/Concurrently-FF7F50?style=flat-square" />
+  <img src="https://img.shields.io/badge/@types/babel__parser-yellow?style=flat-square&logo=babel&logoColor=white" />
+  <img src="https://img.shields.io/badge/@types/babel__traverse-orange?style=flat-square&logo=babel&logoColor=white" />
+</p>
 
 **Drishti** is a repository comprehension engine designed to give developers **deep architectural understanding** of unfamiliar codebases.  
 Unlike tools that only provide statistics or surface-level documentation, Drishti helps you answer critical questions like:
